@@ -496,7 +496,7 @@ p {
   
   .dropdown-menu {
     position: static;
-    display: block;
+    display: none;
     border: none;
     box-shadow: none;
     margin-top: 0.5rem;
