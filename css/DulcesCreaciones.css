@@ -538,3 +538,18 @@ form {
     align-items: center;
   }
 }
+
+/* /Video Publicitario/ */
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
