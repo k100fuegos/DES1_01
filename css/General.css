@@ -237,7 +237,6 @@ main h2 {
 }
 
 
-
 /* Responsive */
 @media (max-width: 600px) {
   nav a {
@@ -259,3 +258,30 @@ main h2 {
   }
 }
 
+@media (max-width: 600px) {
+  .product-info {
+    padding: 1rem;
+  }
+
+  .product-info h3 {
+    font-size: 1.2rem;
+  }
+
+  .product-info p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+  }
+}

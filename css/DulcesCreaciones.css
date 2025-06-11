@@ -449,7 +449,7 @@ p {
   color: #3a3a3a;
 }
 
-/* MEDIA QUERIES ESPECÍFICAS */
+/* MEDIA QUERIES */
 
 /* Tablets */
 @media (max-width: 1024px) {
@@ -491,6 +491,8 @@ p {
     justify-content: center;
     flex-wrap: wrap;
   }
+
+  
   
   .dropdown-menu {
     position: static;
